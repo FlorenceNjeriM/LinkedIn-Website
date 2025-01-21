@@ -51,7 +51,7 @@ a{
     height: 2px;
     background: #045be6;
     position: absolute;
-    bottom: -15px;
+    bottom: -12px;
    
 }
 .navbar-center ul li a:hover::after
