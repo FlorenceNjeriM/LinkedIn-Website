@@ -176,15 +176,76 @@ a{
   }
   .sidebar-activity{
     background: white;
+    padding: 5px 25px;
+    margin: 12px 0;
   }
+  .sidebar-activity h3{
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+  }
+  .sidebar-activity a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color:#888;
+    margin: 3px 0;
+  }
+  .sidebar-activity a img{
+    width: 20PX;
+    margin-right: 10px;
+  }
+  .discover-more-link{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .discover-more-link a{
+    color: #045be6;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  /*------ left sidebar-------*/
   .left-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
   }
+
   .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
   }
+  .sidebar-news{
+background: white;
+padding: 10px 25px;
+  }
+.info-icon{
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+.sidebar-news h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0 30px;
+}
+.sidebar-news a{
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -4px;
+}
+.sidebar-news span{
+  font-size: 12px;
+
+}
   .main-content{
     flex-basis:47%;
 
