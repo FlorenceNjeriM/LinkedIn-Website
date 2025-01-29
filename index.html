@@ -20,28 +20,70 @@
         <div class="navbar-center">
             <ul>
                 <li>
-                    <a href="#" class="active-link"><img src="Images/home.png" alt=""><span>Home</span></a>
+                    <a href="#" class="active-link"><img src="Images/home.png" ><span>Home</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="Images/network.png" alt=""><span>My Network</span></a>
+                    <a href="#"><img src="Images/network.png" ><span>My Network</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="Images/jobs.png" alt=""><span>Jobs</span></a>
+                    <a href="#"><img src="Images/jobs.png" ><span>Jobs</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="Images/message.png" alt=""><span>Messaging</span></a>
+                    <a href="#"><img src="Images/message.png" ><span>Messaging</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="Images/notification.png" alt=""><span>Notifications</span></a>
+                    <a href="#"><img src="Images/notification.png" ><span>Notifications</span></a>
                 </li>
             </ul>
         </div>
         <div class="navbar-right">
             <div class="online">
-                <img src="Images/user-1.png" class="nav-profile-img">
+                <img src="Images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
             </div>
            
         </div>
+        <!------profile-drop-down-menu------------>
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="Images/user-1.png" alt="">
+            <div>
+                <h3>Naomi Joseph</h3>
+                    <a href="#">See your profile</a>
+
+
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/feedback.png" alt="">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/setting.png" alt="">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/help.png" alt="">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/display.png" alt="">
+            <p>Display & Accessibilty</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/logout.png" alt="">
+            <p>Log out</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
     </nav>
 
     <!-------- navbar close--------->
@@ -91,7 +133,7 @@
     <div class="main-content">
         <div class="create-post">
             <div class="create-post-input">
-                <img src="Images/user-1.png" alt="">
+                <img src="Images/user-1.png" >
                 <textarea rows="2" placeholder="Write a post"></textarea>
             </div>
             <div class="create-post-link">
@@ -103,19 +145,227 @@
         </div>
         <div class="sort-by">
             <hr>
-            <p>Sort by: <span>top <img src="Images/down-arrow.png" alt=""></span></p>
+            <p>Sort by: <span>top <img src="Images/down-arrow.png" ></span></p>
         </div>
         <div class="post">
             <div class="post-author">
-                <img src="Images/user-3.png" alt="">
+                <img src="Images/user-3.png" >
                 <div>
                     <h1>Florence Maina</h1>
                     <small>Founder and CEO at galileee</small>
                     <small>2 hours ago</small>
                 </div>
             </div>
+            <p>
+                The success of every websites depends on search engine optimisation and digital marketing strategy. 
+                If you are on first page of all major search engines then your are ahead among your competitors.
+            </p>
+            <img src="Images/post-image-1.png"  width="100%">
+
+        <div class="post-stats">
+            <div>
+                <img src="Images/thumbsup.png" >
+                <img src="Images/love.png" >
+                <img src="Images/clap.png" >
+                <span class="liked-user">Alvin Ndung'u and 81 others</span>
+            </div>
+           
+
+            <div>
+                <span>30 comments &middot; 53 shares</span>
+            </div>
         </div>
+<div class="post-activity">
+    <div>
+        <img src="Images/user-1.png" class="post-activity-user-icon">
+        <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
     </div>
+    <div class="post-activity-link">
+        <img src="Images/like.png" >
+        <span>Like</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/comment.png" >
+        <span>Comment
+        </span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/share.png" >
+        <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/send.png" >
+        <span>Send</span>
+    </div>
+    
+</div>
+       
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-4.png" >
+                <div>
+                    <h1>Scola Muthoni</h1>
+                    <small>Medical Director at AllGirlyStuff Ltd</small>
+                    <small>35 minutes ago</small>
+                </div>
+            </div>
+            <p>
+                The success of every websites depends on search engine optimisation and digital marketing strategy. 
+                If you are on first page of all major search engines then your are ahead among your competitors.
+            </p>
+            <img src="Images/post-image-2.png"  width="100%">
+
+        <div class="post-stats">
+            <div>
+                <img src="Images/thumbsup.png" >
+                <img src="Images/love.png" >
+                <img src="Images/clap.png" >
+                <span class="liked-user">Jake N. and 45 others</span>
+            </div>
+           
+
+            <div>
+                <span>21 comments &middot; 14 shares</span>
+            </div>
+        </div>
+<div class="post-activity">
+    <div>
+        <img src="Images/user-1.png" class="post-activity-user-icon">
+        <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/like.png" >
+        <span>Like</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/comment.png" >
+        <span>Comment
+        </span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/share.png" >
+        <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/send.png" >
+        <span>Send</span>
+    </div>
+    
+</div>     
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-4.png" >
+                <div>
+                    <h1>Luna Njeri</h1>
+                    <small>Medical Director at AllGirlyStuff Ltd</small>
+                    <small>35 minutes ago</small>
+                </div>
+            </div>
+            <p>
+                The success of every websites depends on search engine optimisation and digital marketing strategy. 
+                If you are on first page of all major search engines then your are ahead among your competitors.
+            </p>
+            <img src="Images/post-image-3.png"  width="100%">
+
+        <div class="post-stats">
+            <div>
+                <img src="Images/thumbsup.png" >
+                <img src="Images/love.png" >
+                <img src="Images/clap.png" >
+                <span class="liked-user">Nelson Bett and 25 others</span>
+            </div>
+           
+
+            <div>
+                <span>9 comments &middot; 8 shares</span>
+            </div>
+        </div>
+<div class="post-activity">
+    <div>
+        <img src="Images/user-1.png" class="post-activity-user-icon">
+        <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/like.png" >
+        <span>Like</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/comment.png" >
+        <span>Comment
+        </span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/share.png" >
+        <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/send.png" >
+        <span>Send</span>
+    </div>
+</div>     
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-5.png" >
+                <div>
+                    <h1>Robinson Mwangi</h1>
+                    <small>Block chain Developer at Google</small>
+                    <small>6 minutes ago</small>
+                </div>
+            </div>
+            <p>
+                The success of every websites depends on search engine optimisation and digital marketing strategy. 
+                If you are on first page of all major search engines then your are ahead among your competitors.
+            </p>
+            <img src="Images/post-image-4.png"  width="100%">
+
+        <div class="post-stats">
+            <div>
+                <img src="Images/thumbsup.png" >
+                <img src="Images/love.png" >
+                <img src="Images/clap.png" >
+                <span class="liked-user">Caleb Mutuma and 1120 others</span>
+            </div>
+           
+
+            <div>
+                <span>114 comments &middot; 84 shares</span>
+            </div>
+        </div>
+<div class="post-activity">
+    <div>
+        <img src="Images/user-1.png" class="post-activity-user-icon">
+        <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/like.png" >
+        <span>Like</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/comment.png" >
+        <span>Comment
+        </span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/share.png" >
+        <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="Images/send.png" >
+        <span>Send</span>
+    </div>
+    
+</div>     
+        </div>
+
+    </div>
+
+<!--------right-sidebar------->
 
 
     <div class="right-sidebar">
@@ -161,12 +411,24 @@
 
 
             <div class="copyright-msg">
-                <img src="Images/logo.png" alt="">
+                <img src="Images/logo.png" >
                 <p>Linkedup &#169; 2022. All rights reserved </p>
             </div>
         </div>
+       
     </div>
 </div>
+
+
+<script>
+    
+let profileMenu = document.getElementById("profileMenu");
+
+function toggleMenu(){
+profileMenu.classList.toggle("open-menu");
+}
+
+</script>
 
 </body>
 </html>

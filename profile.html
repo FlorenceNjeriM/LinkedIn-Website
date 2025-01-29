@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+
+<div class="search-box">
+    <img src="Images/search.png" >
+    <input type="text" placeholder="Search">
+</div>
+
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="Images/home.png" ><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Images/network.png" ><span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Images/jobs.png" ><span>Jobs</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Images/message.png" ><span>Messaging</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Images/notification.png" ><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="Images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+           
+        </div>
+        <!------profile-drop-down-menu------------>
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="Images/user-1.png" alt="">
+            <div>
+                <h3>Naomi Joseph</h3>
+                    <a href="#">See your profile</a>
+
+
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/feedback.png" alt="">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/setting.png" alt="">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/help.png" alt="">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/display.png" alt="">
+            <p>Display & Accessibilty</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/logout.png" alt="">
+            <p>Log out</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+    </nav>
+
+    <!-------- navbar close--------->
+
+
+
+
+<script>
+    
+let profileMenu = document.getElementById("profileMenu");
+
+function toggleMenu(){
+profileMenu.classList.toggle("open-menu");
+}
+
+</script>
+
+</body>
+</html>
